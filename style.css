@@ -1,22 +1,20 @@
-body {
-}
-h1, h2 {
-  text-align: left;
-  padding-left: 40px;
-}
-ul {
-  list-style: none;
-  padding: 20px 0px 20px 0px;
-}
-li {
-  float: left;
-  padding: 0px 0px 20px 60px;
-  margin: 0px 20px 0px 10px;
+:root {
+  --font-color: darkblue;
 }
 
-.container {
-  display: grid;
-  grid-template-columns: 100px 100px 100px;
-  grid-column-gap: 10px;
-  grid-row-gap: 10px;
+body {
+  font-family: "Open Sans";
+  color: var(--font-color);
+  margin: 10px 50px 10px 50px;
+  background-color: Ivory;
+}
+
+h1,h2 {
+  font-family: Oswald;
+  color: var(--font-color);
+}
+
+img {
+  float: left;
+  margin: 3px;
 }
